@@ -1,17 +1,23 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "Travis Rutledge"
+  title: "travisrutledge"
   navbar:
     right:
-      - about.qmd
+      - text: Home 
+        href: index.qmd
+      - text: About
+        href: about.qmd
       - icon: github
-        href: https://github.com/etc5523-2022
+        href: https://github.com/travisrutledge
+      - icon: linkedin
+        href: https://www.linkedin.com/in/travisrutledge/
+     
 format:
   html:
-    theme: cosmo
+    theme: sandstone
     css: styles.css
 
-
-
+editor: visual

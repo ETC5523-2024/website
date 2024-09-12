@@ -1,13 +1,16 @@
 ---
-title: "About"
-image: profile.jpg
+title: "Travis Rutledge"
+image: portrait.jpg
 about:
   template: jolla
   links:
     - icon: github
       text: Github
       href: https://github.com/etc5523-2022
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/travisrutledge/
 
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+Hi there! My name is Travis Rutledge, and I am a data analytics professional with 10 years of experience in transforming complex data into actionable insights. Proficient in data transformation, visualisation, dashboard development, Tableau, SQL, R, and Alteryx, I enjoy creating innovative tools that enhance operational efficiency. I've previously worked for Amazon, Goodwill Industries International, and International Justice Mission. I'm currently a graduate student in the Master in Business Analytics course at Monash University in Melbourne, Australia. 
