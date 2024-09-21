@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "Travis Rutledge",
     "section": "",
-    "text": "Hi there! My name is Travis Rutledge, and I am a data analytics professional with 10 years of experience in transforming complex data into actionable insights. Proficient in data transformation, visualisation, dashboard development, Tableau, SQL, R, and Alteryx, I enjoy creating innovative tools that enhance operational efficiency. I’ve previously worked for Amazon, Goodwill Industries International, and International Justice Mission. I’m currently a graduate student in the Master in Business Analytics course at Monash University in Melbourne, Australia."
+    "text": "Hi there!\nMy name is Travis Rutledge, and I am a data analytics professional with 10 years of experience in transforming complex data into actionable insights. I am proficient in data transformation, visualisation, dashboard development, Tableau, SQL, R, and Alteryx, I’ve previously worked for Amazon’s Whole Foods Market, Goodwill Industries International, and International Justice Mission. In my spare time, I enjoy doing pro-bono work for various nonprofits, cooking, playing tennis, and playing games with friends. I’m currently a graduate student in the Master in Business Analytics course at Monash University in Melbourne, Australia."
   },
   {
     "objectID": "index.html",
@@ -40,5 +40,26 @@
     "title": "Blog",
     "section": "",
     "text": "Assignment 1 - ETC 5523\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nAug 16, 2024\n\n\nTravis Rutledge\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog Template\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 18, 2022\n\n\nEmi Tanaka\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Travis Rutledge",
+    "section": "Education",
+    "text": "Education\nMonash University | Melbourne, Australia  Master in Business Analytics | 2024 - Present\nUniversity of Texas at Austin | Austin, Texas  Master in Public Affairs | 2011 - 2013\nTexas A&M University | College Station, Texas  Bachelor in Business Management | 2006 - 2010"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Travis Rutledge",
+    "section": "Experience",
+    "text": "Experience\nAmazon Whole Foods Market |Austin, Texas  Senior Assortment Analyst | 2019 - 2023\nGoodwill Industries International | Washington D.C.  Senior Business Intelligence Analyst | 2015 - 2019\nInternational Justice Mission | Manila, Phillipines  Monitoring and Evaluation Fellow | 2014 - 2015"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "Travis Rutledge",
+    "section": "Contact",
+    "text": "Contact\ntravisrutledge@gmail.com"
   }
 ]

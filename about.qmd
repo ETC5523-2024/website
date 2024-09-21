@@ -1,16 +1,50 @@
 ---
-title: "Travis Rutledge"
+title: "<span style='color:#333333'>Travis Rutledge</span>"
 image: portrait.jpg
 about:
-  template: jolla
+  template: trestles
+  image-shape: rectangle
   links:
     - icon: github
       text: Github
-      href: https://github.com/etc5523-2022
+      href: https://github.com/trut0001
     - icon: linkedin
       text: linkedin
       href: https://www.linkedin.com/in/travisrutledge/
+    - icon: filter-square-fill
+      text: Tableau
+      href: https://public.tableau.com/app/profile/travis.rutledge/vizzes
+    - icon: file-earmark
+      text: Resume
+      href: https://public.tableau.com/app/profile/travis.rutledge/viz/Resume_17210177396910/Resume
 
 ---
 
-Hi there! My name is Travis Rutledge, and I am a data analytics professional with 10 years of experience in transforming complex data into actionable insights. Proficient in data transformation, visualisation, dashboard development, Tableau, SQL, R, and Alteryx, I enjoy creating innovative tools that enhance operational efficiency. I've previously worked for Amazon, Goodwill Industries International, and International Justice Mission. I'm currently a graduate student in the Master in Business Analytics course at Monash University in Melbourne, Australia. 
+Hi there! 
+
+My name is Travis Rutledge, and I am a data analytics professional with 10 years of experience in transforming complex data into actionable insights. I am proficient in data transformation, visualisation, dashboard development, Tableau, SQL, R, and Alteryx, I've previously worked for Amazon's Whole Foods Market, Goodwill Industries International, and International Justice Mission. In my spare time, I enjoy doing pro-bono  work for various nonprofits, cooking, playing tennis, and playing games with friends. I'm currently a graduate student in the Master in Business Analytics course at Monash University in Melbourne, Australia. 
+
+## Contact
+[travisrutledge@gmail.com](travisrutledge@gmail.com)
+
+## Education
+
+Monash University | Melbourne, Australia
+<br> Master in Business Analytics | 2024 - Present
+
+University of Texas at Austin | Austin, Texas
+<br> Master in Public Affairs | 2011 - 2013
+
+Texas A&M University | College Station, Texas
+<br> Bachelor in Business Management | 2006 - 2010
+
+## Experience
+
+Amazon Whole Foods Market |Austin, Texas
+<br> Senior Assortment Analyst | 2019 - 2023
+
+Goodwill Industries International | Washington D.C.
+<br> Senior Business Intelligence Analyst | 2015 - 2019
+
+International Justice Mission | Manila, Phillipines
+<br> Monitoring and Evaluation Fellow | 2014 - 2015
