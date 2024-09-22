@@ -1,5 +1,5 @@
 ---
-title: "<span style='color:#333333'>Travis Rutledge</span>"
+title: "<span style='color:#1B3554;'>Travis Rutledge</span>"
 image: portrait.jpg
 about:
   template: trestles
@@ -20,12 +20,12 @@ about:
 
 ---
 
-Hi there! 
+## Bio
 
-My name is Travis Rutledge, and I am a data analytics professional with 10 years of experience in transforming complex data into actionable insights. I am proficient in data transformation, visualisation, dashboard development, Tableau, SQL, R, and Alteryx, I've previously worked for Amazon's Whole Foods Market, Goodwill Industries International, and International Justice Mission. In my spare time, I enjoy doing pro-bono  work for various nonprofits, cooking, playing tennis, and playing games with friends. I'm currently a graduate student in the Master in Business Analytics course at Monash University in Melbourne, Australia. 
+My name is Travis Rutledge, and I am a data analytics professional with 10 years of experience in turning data into actionable insights. I am proficient in data transformation, visualisation, dashboard development, Tableau, SQL, R, and Alteryx. I've previously worked for [Amazon - Whole Foods Market](https://www.wholefoodsmarket.com/), [Goodwill Industries International](https://www.goodwill.org/), and [International Justice Mission](https://www.ijm.org/). In my spare time, I enjoy doing pro-bono work for various nonprofits, cooking, playing tennis, and playing games with friends. I'm currently a graduate student in the [Master in Business Analytics course](https://handbook.monash.edu/current/courses/B6022) at Monash University in Melbourne, Australia. 
 
 ## Contact
-[travisrutledge@gmail.com](travisrutledge@gmail.com)
+travisrutledge@gmail.com
 
 ## Education
 
