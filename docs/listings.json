@@ -2,14 +2,16 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/assignment-1/index.html",
+      "/posts/Olympics/index.html",
+      "/posts/Olympics/indexold.html",
       "/posts/welcome/index.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
-      "/posts/assignment-1/index.html",
+      "/posts/Olympics/index.html",
+      "/posts/Olympics/indexold.html",
       "/posts/welcome/index.html"
     ]
   }
