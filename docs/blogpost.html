@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Travis Rutledge">
-<meta name="dcterms.date" content="2023-10-09">
+<meta name="dcterms.date" content="2024-09-22">
 
-<title>Is there a better way to measure Olympic medals? – travisrutledge</title>
+<title>Is There a Better Way to Measure Olympic Medal Performance? – travisrutledge</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +22,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -127,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Is there a better way to measure Olympic medals?</h1>
+<h1 class="title">Is There a Better Way to Measure Olympic Medal Performance?</h1>
 </div>
 
 
@@ -144,7 +198,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 9, 2023</p>
+      <p class="date">September 22, 2024</p>
     </div>
   </div>
   
@@ -158,33 +212,33 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="problem-description" class="level1">
 <h1>Problem Description</h1>
-<p>It is recommended to introduce a new way of measuring countries’ Olympic performance called Weighted Total Score, which gives countries 3 points for a winning a gold medal, 2 points for a silver, and 1 point for a bronze. The benefit of this measure is that it is inclusive of all medals won while placing greater importance of gold medals over silver medals over bronze medals. A limitation of this measure is that the public may find it challenging to adopt a new way of evaluating Olympic performance.</p>
-</section>
-<section id="introduction-to-the-problem" class="level1">
-<h1>INTRODUCTION TO THE PROBLEM</h1>
-<p>The International Olympic Committee’s (IOC) current approach to measuring a country’s Olympic performance is tallying gold medals. Simply put, the country that wins the most gold medals is considered the winner of the Olympic Games. While silver and bronze medals are recorded, they do not affect the final tally unless two countries are tied with gold medals.</p>
+<p>The International Olympic Committee’s (IOC) current approach to measuring a country’s Olympic performance is tallying gold medals. While silver and bronze medals are recorded, they do not affect the final tally unless two countries are tied with gold medals.</p>
 <p>It can be argued that there are two problems with the IOC’s current approach to measuring Olympic performance:</p>
 <ol type="1">
-<li><strong>It is disrespectful to athletes who win silver and bronze medals.</strong> In most cases, athletes who won silver and bronze medals do not have their medals counted towards their country’s tally. An athlete might win a silver or bronze medal, but their achievement does not represent their country unless there is a tie for gold medals. One of the three values of the Olympics is Respect <span class="citation" data-cites="olympicvalues">[@olympicvalues]</span>. And, it can be argued that the IOC is insufficiently respecting their athletes by not factoring in who win silver and bronze medals.</li>
-<li><strong>Tallying only gold medals is not a comprehensive look at athletic excellence.</strong> A country may win numerous silver and bronze medals, but if they win no gold medals then they would be ranked as one of the weakest countries in the Olympic games. Of the 184 countries who competed in the 2024 Olympic Games, 144 did not earn a gold medal. In other words, 78% of all countries who competed in the Olympics were not seriously considered in the final results. Along with Respect, another value of the Olympic games is Excellence. It can be argued that the IOC is not sufficiency measuring excellence by ignoring silver and bronze medal wins. Some countries, like the United States, report all medals earned in their news and media<span class="citation" data-cites="guardian2024">[@guardian2024]</span>. But, this is not how the IOC tallies results.</li>
+<li><strong>It is disrespectful to athletes who win silver and bronze medals.</strong> In most cases, athletes who won silver and bronze medals do not have their medals counted towards their country’s tally. An athlete might win a silver or bronze medal, but their achievement does not represent their country unless there is a tie for gold medals. One of the three values of the Olympics is Respect <span class="citation" data-cites="olympicvalues">(<a href="#ref-olympicvalues" role="doc-biblioref">Committee 2024</a>)</span>. And, it can be argued that the IOC is insufficiently respecting their athletes by not factoring in who win silver and bronze medals.</li>
+<li><strong>Tallying only gold medals is not a comprehensive look at athletic excellence.</strong> A country may win numerous silver and bronze medals, but if they win no gold medals then they would be ranked as one of the weakest countries in the Olympic games. Of the 184 countries who competed in the 2024 Olympic Games, 144 did not earn a gold medal. In other words, 78% of all countries who competed in the Olympics were not seriously considered in the final results. Along with Respect, another value of the Olympic games is Excellence. It can be argued that the IOC is not sufficiency measuring excellence by ignoring silver and bronze medal wins. Some countries, like the United States, report all medals earned in their news and media <span class="citation" data-cites="guardian2024">(<a href="#ref-guardian2024" role="doc-biblioref">Nicholas and Ryan 2024</a>)</span>. But, this is not how the IOC tallies results.</li>
 </ol>
-<p>Some have proposed other ways to rank country performance at the Olympics. Researchers Robert C Duncan and Andrew Parece published their own ranking method in the Journal of Sports Analytics that accounts for a country’s probability of winning a medal if populations were the same across countries<span class="citation" data-cites="guardian2024">[@guardian2024]</span>. This approach was dubbed the “Duncan-Parece model”. Although this calculation is useful in considering population size, the primary limitation is that it may be difficult for the public to both understand and trust a calculation that is based on probability calculations.</p>
+<p>Some have proposed other ways to rank country performance at the Olympics. Researchers Robert C Duncan and Andrew Parece published their own ranking method in the Journal of Sports Analytics that accounts for a country’s probability of winning a medal if populations were the same across countries <span class="citation" data-cites="guardian2024">(<a href="#ref-guardian2024" role="doc-biblioref">Nicholas and Ryan 2024</a>)</span>. This approach was dubbed the “Duncan-Parece model”. Although this calculation is useful in considering population size, the primary limitation is that it may be difficult for the public to both understand and trust a calculation that is based on probability calculations.</p>
+</section>
+<section id="data-description" class="level1">
+<h1>Data Description</h1>
+<p>Data was captured from the official Olympics medal table website on 30 August, 2024 <span class="citation" data-cites="olympicmedals">(<a href="#ref-olympicmedals" role="doc-biblioref"><span>“Medal Table”</span> 2024</a>)</span>. This webpage includes a large table showing every country who earned at least one medal in the 2024 Olympics held in Paris, which is a total of 91 countries. The table provides information on the number of gold, silver, and bronze wins for each country. Because the data was captured directly from the Olympics website, there was no concern about data quality. According to the webpage, the data was last updated on 12 August, 2024. The data has no missing values. The data variables included Order, NOC (Country), Gold, Silver, Bronze, and Total. It does not include medals won by AIN, which are “individual neutral athletes” who competed without representing a country.</p>
+<p>There are 9 variables in the dataset. The variable Country is the name of the country that competed in the 2024 Olympic games. Weighted Total Score is the total number of points a country has earned where a gold earns 3 points, a silver earns 2 points, and a bronze earns 1 point. This measure will be explored more in the next section. The next 3 variables are Gold, Silver, and Bronze, which show the total number of medals a country won for each respective category. Lastly, Total Medals shows the total number of gold, silver, and bronze medals that a country won.</p>
+<p>There were no data cleaning steps needed, as the data was pulled directly from the Olympics website. No API or data scraping tool was used. I just manually inputted the data from the 92 records of countries, which took about 5 minutes to do. Below is the read_csv code I used to read the data into R:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>medals <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"medals.csv"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="analysis" class="level1">
 <h1>Analysis</h1>
-<section id="weighted-total-score" class="level2">
-<h2 class="anchored" data-anchor-id="weighted-total-score">Weighted Total Score</h2>
-<p>To address these problems, it is recommended to introduce a new measure called Weighted Total Score (colloquially dubbed “Olympic Points”), which would provide a final score for each country where a gold medal earns 3 points, a silver medal earns 2 points, and a bronze medals earns 1 point. For example, if Australia won 10 gold, 5 silver, and 1 bronze, then the country’s Weighted Total Score would equal 41 (30 gold + 10 silver + 1 bronze). There are two benefits of this new measure. First, unlike IOC’s current approach, it is inclusive of all medals while while prioritising the achievement of gold over silver over bronze. Second, it is easier for the public to understand compared to other suggested new measures like the Duncan-Parece model.</p>
-<p>The main limitation of this new calculation is that it requires the public to shift their previous understanding of measuring Olympic performance from a medal count to a medal score. The public may be confused at first as to what the Weighted Total Score means, and they might assume that the score is a count. To mitigate this risk, it is recommended to do three things:</p>
+<p>To address the problems listed above, let’s introduce a new measure called Weighted Total Score (colloquially dubbed “Olympic Points”), which would provide a final score for each country where a gold medal earns 3 points, a silver medal earns 2 points, and a bronze medals earns 1 point. For example, if Australia won 10 gold, 5 silver, and 1 bronze, then the country’s Weighted Total Score would equal 41 (30 gold + 10 silver + 1 bronze). There are two benefits of this new measure. First, unlike IOC’s current approach, it is inclusive of all medals while prioritising the achievement of gold over silver over bronze. Second, it is easier for the public to understand compared to other suggested new measures like the Duncan-Parece model.</p>
+<p>The main limitation of this new calculation is that it requires the public to shift their previous understanding of measuring Olympic performance from a medal count to a medal score. The public may be confused at first as to what the Weighted Total Score means, and they might assume that the score is a count. To mitigate this risk, we can do three things:</p>
 <ol type="1">
 <li><strong>Add the Weighted Total Score to existing visualisations of medal counts.</strong> In doing this, the public will have a better opportunity to learn what the calculation is while referring to something familiar. They will see an addition of a new measure and not a replacement.</li>
 <li><strong>Visually signify that the Weighted Total Score is different from the existing measures.</strong> This delineation could be done through bolding, highlighting, colour choice, or a line separator. The purpose of this is to draw attention to the new measure and indicate that it is different from medal counts.</li>
 <li><strong>Add concise language that defines the new measure and explains why it was introduced</strong>. This language should be placed above the visualisation so that the audience can have context before viewing the visualisation.</li>
 </ol>
-</section>
-<section id="figures" class="level2">
-<h2 class="anchored" data-anchor-id="figures">Figures</h2>
-<p>As shown in <a href="#fig-1" class="quarto-xref">Figure&nbsp;1</a>, The Olympics website visualises medal counts using a table, sorting countries based off of who won the most gold medals <span class="citation" data-cites="olympicmedals">[@olympicmedals]</span>.</p>
+<p>As shown in <a href="#fig-1" class="quarto-xref">Figure&nbsp;1</a>, The Olympics website visualises medal counts using a table, sorting countries based off of who won the most gold medals <span class="citation" data-cites="olympicmedals">(<a href="#ref-olympicmedals" role="doc-biblioref"><span>“Medal Table”</span> 2024</a>)</span>.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div id="fig-1" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -264,48 +318,27 @@ Figure&nbsp;1: 2024 Olympic Medal Table from olympics.com
 </div>
 </div>
 </section>
-</section>
-<section id="data-description" class="level1">
-<h1>Data Description</h1>
-<section id="data-source" class="level2">
-<h2 class="anchored" data-anchor-id="data-source">Data Source</h2>
-<p>Data was captured from the Olympics medal table website on 30 August, 2024 <span class="citation" data-cites="olympicmedals">[@olympicmedals]</span>. This webpage includes a large table showing every country who earned at least one medal in the 2024 Olympics held in Paris, which is a total of 91 countries. The table provides information on the number of gold, silver, and bronze wins for each country. Because the data was captured directly from the Olympics website, there was no concern about data quality. According to the webpage, the data was last updated on 12 August, 2024. The data has no missing values. The data variables included Order, NOC (Country), Gold, Silver, Bronze, and Total. It does not include medals won by AIN, which are “individual neutral athletes” who competed without representing a country.</p>
-</section>
-<section id="data-dictionary" class="level2">
-<h2 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h2>
-<ul>
-<li><strong>Country</strong> - the name of the country that competed in the 2024 Olympic games. Data type is string.<br>
-</li>
-<li><strong>Weighted Total Score</strong> - the total number of points a country has earned where a gold earns 3 points, a silver earns 2 points, and a bronze earns 1 point. Data type is numeric.</li>
-<li><strong>Gold</strong> - the total number of gold medals that a country won at the 2024 Olympic games. Data type is numeric.</li>
-<li><strong>Silver</strong> - the total number of silver medals that a country won at the 2024 Olympic games. Data type is numeric.</li>
-<li><strong>Bronze</strong> - the total number of bronze medals that a country won at the 2024 Olympicgames. Data type is numeric.</li>
-<li><strong>Total Medals</strong> - the total number of gold, silver, and bronze medals that a country won at the 2024 Olympic games. Data type is numeric.</li>
-</ul>
-</section>
-</section>
 <section id="conclusion" class="level1">
 <h1>Conclusion</h1>
 <p>Although the current method used by the IOC to rank countries based on gold medals is straightforward, it can also overlook the achievements of athletes who win silver and bronze medals. It can be argued that this method does not sufficiently reflect the Olympic values of Respect and Excellence. The recommended Weighted Total Score offers a more comprehensive and inclusive alternative, giving countries credit for all their athletes’ achievements while maintaining the distinction between gold, silver, and bronze.</p>
 <p>The Weighted Total Score honors the dedication of all medal-winning athletes and allows countries to receive recognition for overall performance. This method not only values all types of medals but is also more accessible to the public than complex models like the Duncan-Parece model.</p>
 <p>Implementing the Weighted Total Score could present challenges in regards to public perception and adoption. People are accustomed to the traditional method of tallying gold medals, so introducing the score must be done thoughtfully. Three recommended ways to assist in the adoption are including the new score into existing visualisations, visually delineating the new measure from existing measures, and adding language that provides context around the measure. While the change may require time and effort for public adoption, this method aligns more closely with the Olympic values of respect and excellence and could enhance how the Games are celebrated globally.</p>
-</section>
-<section id="article-analysis" class="level1">
-<h1>ARTICLE ANALYSIS</h1>
-<p>The report studied here is titled “Weighted Total Score: A New Way to Measuring Olympic Performance” by Travis Rutledge. This is considered a technical report because it a concise paper written to inform decision-making that includes an executive summary, introduction to the problem, key results, methods, and a conclusion.</p>
-<p>The technical report summarises how the International Olympic Committee (IOC)’s current approach to measuring Olympic performance of tallying gold medals is not comprehensive. The report then offers a new method to measuring performance called the Weighted Total Score.</p>
-<p>The first five paragraphs provide a background of the problem with measuring Olympic performance by tallying only gold medals. The report provides a numbered list of the challenges so that the reader can more easily understand the issue. The report then explores other ways that olympic performance could be measured, such as the Duncan-Parece model along with its limitations. Because this is a technical report that is intended to be concise, there is little to no use of adverbs, adjectives, or other expressive language.</p>
-<p>The lede is located in the executive summary at the start of the technical report. It states:</p>
-<blockquote class="blockquote">
-<p><em>“It is recommended to introduce a new way of measuring countries’ Olympic performance called Weighted Total Score, which gives countries 3 points for a winning a gold medal, 2 points for a silver, and 1 point for a bronze. The benefit of this measure is that it is inclusive of all medals won while greater placing importance of gold medals over silver medals over bronze medals. A limitation of this measure is that the public may find it challenging to adopt a new way of evaluating Olympic performance.”</em></p>
-</blockquote>
-<p>Unlike ledes in news articles, blog posts, or videos that are designed to grab the reader’s attention, this lede is designed to summarise the key points for the reader. This purpose of this summary lede is to give essential information to the reader so that they can make informed decisions. In the case of this technical report, the executive summary serves as both the lede and the summary.</p>
-<p>The main result of the technical report is a recommendation to introduce a new way of measuring Olympic performance called the Weighted Total Score. The purpose of the technical report is to provide an analysis of the benefits and limitations of existing methods to measure olympic performance, and it then offers a new method that addresses the previous limitations.</p>
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-olympicvalues" class="csl-entry" role="listitem">
+Committee, International Olympic. 2024. <span>“Olympic Values: Respect, Excellence, and Friendship.”</span> <a href="https://olympics.com/ioc/olympic-values">https://olympics.com/ioc/olympic-values</a>.
+</div>
+<div id="ref-olympicmedals" class="csl-entry" role="listitem">
+<span>“Medal Table.”</span> 2024. <a href="https://olympics.com/en/paris-2024/medals">https://olympics.com/en/paris-2024/medals</a>.
+</div>
+<div id="ref-guardian2024" class="csl-entry" role="listitem">
+Nicholas, Josh, and Jackson Ryan. 2024. <span>“How Does the Olympic Medal Tally Work?”</span> <em>The Guardian</em>. <a href="https://www.theguardian.com/sport/article/2024/aug/10/paris-olympics-2024-how-does-medal-tally-work-order">https://www.theguardian.com/sport/article/2024/aug/10/paris-olympics-2024-how-does-medal-tally-work-order</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
